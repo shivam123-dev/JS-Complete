@@ -1,4 +1,4 @@
-// Javascript type conversion and type coercion
+// Javascript type conversion
 
 console.log('This is tut5');
 
@@ -47,4 +47,14 @@ number1 = parseFloat(number1);
 
 let number3 = parseFloat('4543.1231');
 // toFixed() is used to print the number of decimal points upto which we can print that decimal number
-console.log(number3.toFixed(9), (typeof number3));
+// console.log(number3.toFixed(9), (typeof number3));
+
+//  Javascript type coercion
+
+let myStr = "698";
+let myNum = 34;
+// this will print 69834 
+console.log(myStr + myNum); 
+// so to avoid this we use: -
+myStr = Number("698");
+console.log(myStr + myNum); 
