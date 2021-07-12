@@ -29,10 +29,10 @@ function getData() {
 // post Request
 function postData() {
     url = "http://dummy.restapiexample.com/api/v1/create";
-    data = '{"name":"test1231321231","salary":"20000","age":"21"}'
+    data = '{"name":"shivam213123","salary":"20000","age":"21"}'
     params = {
         method: 'post',
-        headers: {
+        Headers: {
             'Content-Type': 'application/json'
         },
         body: data
